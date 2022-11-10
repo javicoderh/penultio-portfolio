@@ -1,0 +1,1113 @@
+.App {
+text-align: center;
+}
+
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerContainer {
+background-color:  transparent;
+}
+
+header {
+  min-width: 620px;
+}
+
+.sectionContainer {
+  margin: 5px;
+}
+
+.DragDreamLogin {
+background-color: rgb(134, 60, 150);
+height: 400px;
+width: 280px;
+border-radius: 5%;
+border: solid rgb(225, 238, 225) 1px;
+}
+
+.GalleriesLink {
+background-color: rgb(135, 206, 235);
+height: 400px;
+width: 280px;
+border-radius: 5%;
+border: solid rgb(225, 238, 225) 1px;
+}
+
+.App-header {
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-color: rgb(21, 67, 136);
+width: 100%;
+}
+
+.head {
+transform: scale(0.6);
+position: relative;
+bottom: 50px;
+}
+
+main {
+width: 100%;
+height: 50vh;
+}
+
+footer {
+width: 100%;
+height: 20vh;
+} 
+
+.indexContainer {
+  position: relative;
+  bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.5)
+}
+
+.ScrumLogin {  
+height: 400px;
+width: 280px;
+border-radius: 5%;
+border: solid rgb(225, 238, 225) 1px;
+background-color: #721c26;
+}
+
+.ScrumLogin:hover {
+position: relative;  
+transform: scale(1.05);
+background-color: #b71225;
+transition: 0.5s;
+margin-left: 10px;
+margin-right: 10px;
+z-index: 4;
+}
+
+.DragDreamLogin:hover {
+position: relative;  
+transform: scale(1.05);
+background-color: rgb(202, 116, 222);
+transition: 0.5s;
+margin-left: 10px;
+margin-right: 10px;
+z-index: 4;
+}
+
+.sectionImg {
+  height: 200px;
+}
+
+.GalleriesLink:hover {
+position: relative;  
+transform: scale(1.05);
+background-color: rgb(0, 0, 0);
+transition: 0.5s;
+margin-left: 10px;
+margin-right: 10px;
+color: white;
+z-index: 4;
+}
+
+.projList {
+  position: relative;
+  right: 20px;
+}
+
+#projectBackButton {
+  position: relative;
+  left: 35px;
+  transform: scale(0.8);
+}
+
+.overView {
+  position: relative;
+  top: -40px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.visualDiv {
+position: relative;
+top: 0px;
+width: 40%;
+height: 1px;
+background-color: rgb(70, 230, 107);
+}
+
+.linksContainer {
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 50vh;
+justify-content: center;
+gap: 10px;
+}
+
+.scrOvTit {
+  text-decoration: underline;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+width: 100%; 
+}
+
+.footQuote {
+font-size: 1.2rem;
+font-family: cursive;
+font-weight: 100;
+}
+.centralCore {
+width: 15px;
+height:15px;
+background-color: #870d1b;
+border-radius: 50%;
+border: solid 1px white;
+z-index: 1;
+}
+
+.centralOrbit {
+position: relative;
+top: 80px;
+left: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 295px;
+height:195px;
+opacity:30%;
+border-radius: 50%;
+background-color: transparent;
+border: solid goldenrod 1px;
+z-index: 1;
+}
+
+.orbitButton1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 270px;
+left: 160px;  
+border-radius: 50%;
+background-color: transparent;
+width: 75px;
+height: 100px;
+opacity: 70%;
+z-index: 2;
+}
+
+.orbitButton1:hover {
+transform: scale(1.05);
+opacity: 100%;
+transition: 0.5s;
+}
+
+.orbitButton2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 370px;
+left: 320px;  
+border-radius: 50%;
+background-color: transparent;
+width: 75px;
+height: 100px;
+opacity: 70%;
+z-index: 2;
+}
+
+.orbitButton2:hover {
+transform: scale(1.05);
+opacity: 100%;
+transition: 0.5s;
+}
+
+.orbitButton3 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 180px;
+left: 450px;  
+border-radius: 50%;
+background-color: transparent;
+width: 75px;
+height: 100px;
+z-index: 3;
+}
+
+.orbitButton3:hover {
+transform: scale(1.05);
+opacity: 100%;
+transition: 0.5s;
+}
+
+.orbitH3 {
+color: white;
+font-size: 1rem;
+}
+
+.main {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.Card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: rgb(12, 40, 80);
+  border: solid 1px white;
+}
+
+.leftArrow {
+  margin-right: 10px;
+}
+
+.rightArrow {
+  margin-left: 10px;
+  transform: rotate(180deg);
+}
+    
+.ScrumNavLink {
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: silver;
+}
+
+.loginMessage {
+  color: lightgreen;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.loginCover {
+  position: absolute;
+  bottom: 180px;
+  left:100px;
+  background-color: rgb(21, 67, 136);
+  width: 400px;
+  height: 100px;
+  z-index: 2;  
+}
+
+.loginCover:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.indexHeader {
+  position:relative;
+  top:-20px !important;
+  display: flex;
+  flex-direction: column;
+  border: solid rgb(178, 1, 178) 1px;
+  background-color: #682468;
+  border-radius: 15px;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.headerFirstLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subtittle {
+  font-size: 1.4rem;
+  font-family: cursive;
+}
+
+.Logo {
+  position: absolute;
+  top: -10px;
+  left: 100px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid rgb(216, 139, 216) 1px;
+  box-shadow: 0px 5px 30px rgba(184, 90, 179, 0.8);
+}
+
+.stickyNav {
+  font-size: 1.2rem;
+  margin-bottom: 10px; 
+  color: lightgreen;
+}
+
+.navLink {
+  color: lightgreen
+}
+
+
+a{
+  color: silver;
+  text-decoration: none;
+}
+
+h6 {
+  position: absolute;
+  font-size: 0.8rem;  
+  bottom: 175px;
+}
+
+.mainUserWelcome {
+  position: absolute;
+  top: 130px;
+  right: 465px;    
+}
+
+
+
+.briefButton {
+  position: relative;
+  bottom: 20px;
+  color: rgb(107, 149, 212);
+}
+
+.login {
+  background-color: rgb(7, 35, 77);
+  color: silver;
+  border: solid 1px rgb(166, 16, 166);
+  border-radius: 10%;
+  transform: scale(1.5)
+}
+
+.login:hover {
+  background-color: rgb(41, 94, 174);
+  transform: scale(1.45);
+  transition: 0.2s;
+}
+
+
+
+.greetings {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+
+.greetingName {
+  color: lightgreen;
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+.logout {
+  margin-top: 15px;
+  height: 65px;  
+  background-color: rgb(29, 84, 167);
+  color: silver;
+  border-radius: 10%;
+  font-size: 1.3rem;
+}
+
+.logout:hover {
+  background-color: red;
+  transform: scale(0.95);
+  color: goldenrod;
+  transition: 0.5s;
+}
+
+.briefCaseEnter {
+  background-color: transparent;
+  border: none;
+}
+
+h6 .lefth6 {
+  margin-right: 10px;
+}
+
+h6.righth6 {
+  margin-left: 10px;
+}
+
+.homeButton {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.homeButton:hover {
+  transform: scale(1.05);
+  transition: 0.5s;  
+}
+
+.skillsContainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8)
+}
+
+.gallerIndexContainer {
+  display: grid;
+  grid-template-columns: repeat(250, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  position: absolute;
+  right: 150px;
+  top: 0px;
+  background-color: rgb(21, 67, 136);
+  width: 80%;
+  height: 60vh;
+  z-index: 3;
+}
+
+.gallery1 {
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: black;
+  grid-column-start: 15;
+  grid-column-end: 55;
+  grid-row-start: 15;
+  grid-row-end: 45;
+  border: solid 2px lightgreen;
+}
+
+.gallery1:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
+
+.gallery2 {
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: black;
+  grid-column-start: 60;
+  grid-column-end: 100;
+  grid-row-start: 35;
+  grid-row-end: 65;
+  border: solid 2px lightgreen;
+}
+
+.gallery3 {
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: black;
+  grid-column-start: 105;
+  grid-column-end: 145;
+  grid-row-start: 15;
+  grid-row-end: 45;
+  border: solid 2px lightgreen;
+}
+
+.gallery3:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
+
+.gallery4 {
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: black;
+  grid-column-start: 150;
+  grid-column-end: 190;
+  grid-row-start: 35;
+  grid-row-end: 65;
+  border: solid 2px lightgreen;
+}
+
+.gallery4:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
+
+.gallery5 {
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: black;
+  grid-column-start: 195;
+  grid-column-end: 235;
+  grid-row-start: 15;
+  grid-row-end: 45;
+  border: solid 2px lightgreen;
+}
+
+.gallery5:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
+
+.gridHome {
+  grid-column-start: 119;
+  grid-column-end: 135;
+  grid-row-start: 65;
+  grid-row-end: 85;
+}
+
+.gallery2:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
+
+.galleryTit {
+  position:relative;
+  bottom: 25px;
+  font-size: 0.8rem;
+}
+
+.galleryLinkImg {
+width: 100%;
+height: 80%
+}
+
+.productOwner:hover  {
+  transform: scale(1.05);
+  transition:  0.5s;  
+}
+
+.productOwner:hover h5 {
+  color: lightgreen
+}
+
+.scrumMaster:hover  {
+  transform: scale(1.05);
+  transition:  0.5s;  
+}
+
+.scrumMaster:hover h5 {
+  color: lightgreen
+}
+
+.programerImg:hover  {
+  transform: scale(1.05);
+  transition:  0.5s;  
+}
+
+.programmers:hover h5 {
+  color: lightgreen
+}
+
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: transparent;  
+}
+
+.skillsItem:hover, .skillsItem img:hover {
+  overflow: visible;
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: transparent !important;
+  color: lightgreen;
+}
+
+.skillsItem h6 {
+  position: relative;
+  top:-10px;
+}
+
+.skillsVisual {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 25px;
+margin-bottom: 0;
+height: 15vh;
+}
+
+.underConstruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uConstruction {
+  font-size: 0.8rem;
+  color: lightgreen;
+  font-family: cursive;
+}
+
+.stateffectContainer {
+  position: relative;
+  top: 30px;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.golden {
+  color: goldenrod;
+}
+
+.lightgreen {
+  color: lightgreen
+}
+
+.light {
+  background-color: goldenrod;
+  transition: 1s;
+  border: solid 2px rgb(60, 60, 60)
+}
+
+.dark {
+  filter: invert(1);
+  transition: 1s;
+  border: solid 2px rgb(0, 0, 0);  
+}
+
+.fire {
+  background-color: rgb(255, 0, 0);
+  transition: 1s;
+  border: solid 1px rgb(146, 239, 47);
+}
+
+.PageContainer {
+  position: relative;
+  top: -140px;
+  left: 0px;
+  transform: scale(0.6);
+  min-width: 600px;
+}
+
+#stateEffecttHomeButton {
+  position: absolute;
+  transform: scale(0.7);
+  top: 280px; 
+  left: 730px;
+}
+
+#contextHomeButton {
+  position: absolute;
+  left: 280px;
+  bottom: 10px;
+  transform: scale(1.5);
+}
+
+.water {
+  background-color: rgb(0, 193, 193);
+  transition: 1s;
+  border: solid 2px rgb(77, 157, 255);
+}
+
+.purple {
+  color: purple;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.white, .red, .golden, .lightgreen, .purple, .yellow {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+  color: lightgreen;
+  font-size: 0.95rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jobQuote {
+  position: relative;  
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right5, .left5 {
+  position: relative;
+  font-size: 0.8rem;
+  bottom: 20px;
+  margin: 10px;
+}
+
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.detailsContainer {
+  width: 500px;
+  transform: scale(0.7);
+}
+
+.instructions {
+  font-size: 0.7rem;
+}
+
+.programerImg {
+  border-radius: 50%;
+  width: 100px;
+  margin: 5px;
+}
+
+.scrumStructureContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 30px;
+}
+
+.productOwner h5 {
+  position: relative;
+  bottom: 25px;
+}
+
+.masterProgramers {
+  position: relative;
+  top: 50px;
+}
+
+.scrumMaster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrumMasterImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border: solid 3px purple
+}
+
+.scrumMaster h5 {
+  position: relative;
+  bottom: 25px;
+}
+
+.programmers h5 {
+  position: relative;
+  bottom: 35px;
+}
+
+.programmersImg {
+  display: flex;
+  flex-direction: row;
+}
+
+.programerImg {
+display: flex;
+align-items: center;
+justify-content: center;
+border: solid 3px purple;
+}
+
+.gallTit {
+  grid-column-start: 100;
+  grid-column-end: 150;
+  grid-row-start: 0;
+  grid-row-end: 10;
+}
+
+
+/** Queries  **/
+
+@media (max-width: 700px) {
+
+  .Logo {
+    top: -10px;
+    left: -30px;
+    height: 70px;
+  }
+
+  .indexHeader {
+    position: absolute;
+    top: -20px !important;
+  }
+
+  .jobQuote{
+    font-size: 0.8rem;
+    position: relative;
+    top: -25px;
+  }
+
+  .stickyNav {
+    font-size: 0.8rem;
+  }
+
+  .skillsVisual {
+    position:relative;
+    bottom: 40px;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+  }
+
+  .skillsItem {
+    transform: scale(0.5);
+  }
+
+  .instructions {
+    position: relative;
+    bottom: 70px;
+  } 
+  
+  .head {
+    position: relative;
+    bottom: 70px;    
+  }
+
+  .scrOvTit {
+    font-size: 1.1rem;
+  }
+
+  .head button {
+    font-size: 0.7rem;
+  }
+
+  .scrumLogo {
+    transform: scale(0.4);
+  }
+  
+  .main {
+    width: 600px;
+    transform: scale(0.8);
+  }
+
+  .mainRoles {
+    width: 600px;
+    transform: scale(0.8);
+    position: relative;
+    top:60px;
+  }
+
+  .footQuote {
+    position: relative;
+    bottom: 43px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .righth6, .lefth6 {
+    position: relative;
+    top: -30px;
+  }
+
+  .orbitContainer {
+    position: relative;
+    bottom: -80px;
+    right: 175px;
+  }
+
+.orbitButton1 {
+  top: 100px;
+} 
+
+.orbitButton2 {
+  top: 250px;
+}
+
+.orbitButton3 {
+  top: 100px;
+}
+
+  .centralCore {
+    position: relative;    
+  }
+
+  .centralOrbit {
+    position: relative;
+    top: 80px;
+  }
+  
+  .indexContainer {
+    transform: scale(0.4);
+  }
+
+  .bottom {
+    position: relative;
+    top: -20px !important;
+  }
+
+  .visualDiv .top {
+    position: relative;
+    top: -40px;
+    width: 700px !important;
+  }
+
+  .tittle {
+    position: absolute;
+    top: -40px;
+    transform: scale(0.8);
+  }
+
+  .gallerIndexContainer {
+    display: grid;
+    grid-template-columns: repeat(250, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    background-color: rgb(21, 67, 136);
+    width: 100%;
+    height: 40vh;
+    z-index: 3;
+  }
+
+  .gridHome {
+  grid-column-start: 107;
+  grid-column-end: 135;
+  grid-row-start: 65;
+  grid-row-end: 85;
+  }
+
+  .scrumIndexHome {
+    position: absolute;
+    top: 400px;
+    left: 320px;
+    transform: scale(1.5);
+  }
+
+  .underConstruction {
+    position: absolute;
+    top: 100px;
+    right: 80px;
+  }
+}
+
+
+@media (min-width: 700px) {
+
+  .indexHeader {
+    top: 20px;
+    transform: scale(0.8);
+    z-index: 3;
+  }
+
+ .overView {
+  position: relative;
+  top: -65px;
+ }
+ 
+ .bottom {
+  top: -20px;
+ }
+
+.footQuote {
+  position: relative;
+  bottom: 40px;
+}
+
+.linksContainer {
+  position: relative;
+  bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: -60px;
+}
+
+.orbitContainer {
+  position: relative;
+  right: 50px;
+}
+
+.orbitButton1 {
+  top: 100px;
+} 
+
+.orbitButton2 {
+  top: 250px;
+}
+
+.orbitButton3 {
+  top: 100px;
+}
+
+.head {
+  position: relative;
+  bottom: 100px;
+}
+.scrumIndexHome {
+  position: absolute;
+  top: 400px;
+  left: 325px;
+  transform: scale(1.5);
+}
+}
+
+
+
+  
